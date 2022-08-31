@@ -1,0 +1,56 @@
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear { background: none; border: 0; clear: both; display: block; float: none; font-size: 0; list-style: none; margin: 0; padding: 0; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+.kolodo_settings_panel_wrap { width: 100%; margin: 20px 0; font-family: "Lucida Grande",sans-serif; }
+.kolodo_settings_panel { float: left; width: 782px; }
+.kolodo_settings_panel .settings_top { background: #fff; border: 1px solid #ccc; border-radius: 6px 6px 0 0; box-shadow: 0 1px 0 #fff inset; text-align: center; }
+.kolodo_settings_panel .settings_top .logo { display: inline-block; margin: 18px 20px; }
+.settings_internal { background: #f1f1f1; border-bottom: 1px solid #d8d8d8; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; }
+.settings_internal .content { background-color: #fcfcfc; border-left: 1px solid #d8d8d8; box-shadow: 0 1px 0 #fff inset; float: left; font-family: "Lucida Grande",sans-serif; margin-left: -1px; min-height: 500px; padding: 0; width: 620px; }
+.settings_internal .content form { float: left; width: 100%; background: #fff; }
+.settings_internal .content h2 { padding: 12px 15px; background: #5a3092; color: #fff; font-size: 14px; line-height: 15px; margin: -1px 0 0 0; border-top: 1px solid #432170; border-bottom: 1px solid #432170; position: relative; z-index: 1; }
+.settings_internal .content h5 { background: #789f2f; padding: 12px 15px; color: #fff; font-size: 14px; line-height: 15px; margin: 0; font-weight: normal; text-align: center; border-bottom: 1px solid #b7eab0; }
+.settings_internal .content p { float: left; width: 590px; border-bottom: 1px solid #e6e6e6; padding: 15px; margin: 0; }
+.settings_internal .content p label { float: left; width: 180px; font-size: 12px; line-height: 32px; color: #666; margin: 0; text-align: left; }
+.settings_internal .content p input { float: left; background: #f6f6f6; width: 400px; padding: 10px 12px; height: auto; font-size: 12px; line-height: 12px; color: #666; border: 1px solid #d8d8d8; -webkit-border-radius: 4px; -khtml-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.settings_internal .content p textarea { float: left; background: #f6f6f6; width: 400px; height: 100px; padding: 10px 12px; font-size: 12px; line-height: 18px; color: #666; border: 1px solid #d8d8d8; -webkit-border-radius: 4px; -khtml-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.settings_internal .content .bottom { text-align: center; margin: 0 auto; }
+.settings_internal .content span.small { font-size: 11px; line-height: 15px; color: #999; font-style: italic; float: left; margin: 6px 0 0 180px; }
+.settings_internal .content input#submit { background: #5a3092; padding: 10px 15px; font-size: 14px; line-height: 14px; color: #fff; border: none; float: none; display: inline-block; margin: 15px auto; text-align: center; border-radius: 4px; cursor: pointer; }
+.settings_internal .content input#submit:hover { background: #432170; }
+.settings_internal .admin_sidebar { float: left; position: relative; width: 160px; z-index: 2; }
+.settings_internal .admin_sidebar ul { padding: 0; margin: 0; }
+.settings_internal .admin_sidebar ul li { border-bottom: 1px solid #d8d8d8; box-shadow: 0 1px 0 #f9f9f9 inset; margin-bottom: 0; margin-right: 1px; }
+.settings_internal .admin_sidebar ul li a { color: #666; display: block; font-size: 12px; font-weight: bold; padding: 10px 15px; text-decoration: none; outline: none; }
+.settings_internal .admin_sidebar ul li a:hover, .settings_internal .admin_sidebar ul li.active a { background-color: #fff; }
+.admin_footer { float: left; width: 100%; margin: 20px 0; }
+.admin_footer p { font-size: 11px; line-height: 18px; color: #4d4d4d; text-align: center; margin: 0 auto; text-shadow: 1px 1px 1px #fff; }
+.admin_footer p a { color: #4d4d4d; border-bottom: 1px dashed transparent; text-decoration: none; padding: 0 0 2px 0; }
+.admin_footer p a:hover { border-bottom: 1px dashed #4d4d4d; }
+
+/* Admin Custom Fields */
+#admin_options { margin: 20px 10px; }
+#admin_options ul#tabs { padding: 0; margin: 0; background-color: #f1f1f1; border: 1px solid #dedede; border-right: 0; float: left; }
+#admin_options ul#tabs li { list-style: none; float: left; display: inline; font-size: 14px; line-height: 32px; margin: 0; padding: 0; }
+#admin_options ul#tabs li.last a { border: none; }
+#admin_options ul#tabs li a { display: block; padding: 0 10px; border-right: 1px solid #dedede; color: #555; text-decoration: none; }
+#admin_options ul#tabs li a:hover,  ul#tabs li.active a { background-color: #fff; }
+#admin_options .tab_content { border: 1px solid #dedede; background-color: #fff; padding: 20px; margin: -1px 0 0 0; }
+#admin_options .tab_content h2 { margin: 0 0 20px 0; padding: 0; font-size: 21px; line-height: 21px; font-weight: bold; color: #223167; }
+#admin_options .tab_content h4 { margin: 15px 0 10px 0; padding: 0; font-size: 16px; line-height: 16px; font-weight: bold; color: #348fc3; }
+#admin_options .tab_content .left_col { float: left; width: 300px; border-right: 1px solid #dedede; padding: 0 20px 0 0; margin: 0 20px 0 0; }
+#admin_options .tab_content select { width: 300px; padding: 8px; height: 35px; color: #666; font-size: 13px; line-height: 13px; }
+#admin_options .tab_content .right_col { float: left; width: 300px; }
+#admin_options .tab_content input { width: 298px; padding: 0 7px; height: 34px; border: 1px solid #dedede; float: left; color: #666; font-size: 13px; line-height: 34px; }
+#admin_options .tab_content input.checkbox { width: 20px; padding: 0; height: 20px; border: 1px solid #dedede; float: left; }
+#admin_options .tab_content textarea { width: 298px; padding: 7px; height: 350px; border: 1px solid #dedede; float: left; color: #666; font-size: 13px; line-height: 18px; }
+#admin_options .tab_content textarea.small_textarea { width: 298px; padding: 7px; height: 180px; border: 1px solid #dedede; float: left; color: #666; font-size: 13px; line-height: 18px; }
+#admin_options .tab_content textarea.short { height: 175px; }
+#admin_options .tab_content p { margin: 0 0 15px 0; float: left; width: 300px; }
+#admin_options .tab_content p.checkbox_field label { float: left; width: auto; margin: 3px 0 15px 10px; }
+#admin_options .tab_content label { float: left; width: 300px; margin: 0 0 2px 0; font-size: 13px; line-height: 18px; font-weight: bold; color: #666; text-shadow: 1px 1px 1px #fff; }
+
+#admin_options .tab_content.bookings h3 { font-weight: normal; margin: 6px 0 25px 0; }
+#admin_options .tab_content.bookings h6 { font-weight: normal; margin: 6px 0 5px 0; font-size: 15px; }
+#admin_options .tab_content.bookings table { border: 0; width: 100%; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; margin: 25px 0 0 0; }
+#admin_options .tab_content.bookings td, #admin_options .tab_content.bookings th { border: 1px solid #ccc; border-bottom: 0; border-right: 0; margin: 0; padding: 20px 0; font-size: 14px; text-align: center; }
+#admin_options .tab_content.bookings td a { display: block; }

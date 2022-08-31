@@ -1,0 +1,29 @@
+.jt {
+    display: flex;
+}
+
+.jt .dd_field_grp {
+    padding: 30px 50px 30px 50px;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 150px 0 rgba(0, 0, 0, 0.1);
+}
+
+.jt .dd_field_grp .stat_box {
+    width: 60%;
+}
+
+.jt .dd_field_grp .address_box {
+    width: 40%;
+}
+
+.jt .field .field_label {
+    width: 20%;
+}
+
+.jt .field .field_value {
+    width: 60%;
+}
+
+/*# sourceMappingURL=dd_letchworth.css.map */
